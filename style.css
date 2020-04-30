@@ -1,0 +1,25 @@
+body {
+    padding: 0 50px;
+    margin: 0;
+    font-family: 'Almarai', sans-serif;
+    color: #FCF6F5FF;
+    /* background-color: #2BAE66FF; */
+    background-color: dodgerblue;
+}
+
+h1 {
+    text-align: center;
+    margin: 35px 0;
+    font-weight: 500;
+    font-size: 40pt;
+}
+
+p {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 500;
+    font-size: 16pt;
+    padding: 10px;
+    border: 2px solid #FCF6F5FF;
+    border-radius: 10px;
+    line-height: 1.6em;
+}
