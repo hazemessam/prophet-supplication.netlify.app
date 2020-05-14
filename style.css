@@ -30,6 +30,11 @@ fieldset {
     position: relative;
     margin-bottom: 35px;
     padding-top: 30px;
+    transition: .4s;
+}
+
+fieldset:hover {
+    transform: scale(1.03);
 }
 
 fieldset legend {
