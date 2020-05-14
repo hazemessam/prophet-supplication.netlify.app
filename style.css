@@ -11,6 +11,17 @@ body {
     background-color: dodgerblue;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: .4s;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 1;
+}
+
 h1 {
     text-align: center;
     margin: 35px 0;
@@ -31,10 +42,11 @@ fieldset {
     margin-bottom: 35px;
     padding-top: 30px;
     transition: .4s;
+    cursor: pointer;
 }
 
 fieldset:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
 }
 
 fieldset legend {
