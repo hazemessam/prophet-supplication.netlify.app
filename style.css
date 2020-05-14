@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0 50px;
     margin: 0;
@@ -14,13 +18,29 @@ h1 {
     font-size: 40pt;
 }
 
-p {
-    font-family: 'Almarai', sans-serif;
+fieldset {
     font-weight: 500;
     font-size: 16pt;
     padding: 10px;
-    border: 2px solid #FCF6F5FF;
+    border: 3px solid #FCF6F5FF;
     border-radius: 10px;
     line-height: 1.6em;
     text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    margin-bottom: 35px;
+    padding-top: 30px;
+}
+
+fieldset legend {
+    border: 2px solid #FCF6F5FF;
+    border-radius: 10px;
+    padding: 2px 8px;
+    display: inline-block;
+    position: absolute;
+    top: -22px;
+    right: 45px;
+    background-color: #fff;
+    color: dodgerblue;
+    
 }
