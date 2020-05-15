@@ -1,9 +1,23 @@
+@media (max-width: 480px) {
+    fieldset legend {
+        left: 50%;
+        transform: translateX(-50%);
+        width: fit-content;
+    }
+}
+
+@media (min-width: 481px) {
+    fieldset legend {
+        right: 45px;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    padding: 0 50px;
+    padding: 0;
     margin: 0;
     font-family: 'Almarai', sans-serif;
     color: #FCF6F5FF;
@@ -33,14 +47,14 @@ fieldset {
     font-weight: 500;
     font-size: 16pt;
     padding: 10px;
+    padding-top: 30px;
     border: 3px solid #FCF6F5FF;
     border-radius: 10px;
     line-height: 1.6em;
     text-align: center;
-    margin-bottom: 15px;
-    position: relative;
+    margin: 0 50px;
     margin-bottom: 35px;
-    padding-top: 30px;
+    position: relative;
     transition: .4s;
     cursor: pointer;
 }
@@ -56,7 +70,6 @@ fieldset legend {
     display: inline-block;
     position: absolute;
     top: -22px;
-    right: 45px;
     background-color: #fff;
     color: dodgerblue;
     
