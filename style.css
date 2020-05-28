@@ -74,3 +74,7 @@ fieldset legend {
     color: dodgerblue;
     
 }
+
+fieldset.no-legend {
+    padding-top: 10px;
+}
